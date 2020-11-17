@@ -1,0 +1,143 @@
+.projects-wrapper {
+    height: 800px;
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+}
+.projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* height: 800px; */
+    width: 90%;
+    height: 95%;
+   
+}
+.project {
+    width: 50%;
+    height: 100%;
+    border: 0.5px solid grey;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+.project img {
+    width: 50%;
+    height: 100%;
+}
+.project .img img {
+    width: 250px;
+    height: 180px;
+    box-shadow: 10px 11px 30px #888888;  
+
+}
+.project .project-text {
+    width: 450px;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+.project-text span {
+    color: rgba(0, 0, 0, 0.938);
+    font-size: 18px;
+    margin-left: 10px;
+    width: 95%;
+   
+}
+.project-text a {
+    text-decoration: none;
+    margin-left: 10px;
+    color: #31b0d5;
+    margin-top: 5px;
+}
+.naslov h3 {
+    margin: 26px;
+    font-size: 26px;
+    color:  #31b0d5;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.projects .scroll i {
+    color:  #31b0d5;
+    margin-top: 10px;
+}
+#pro1 {
+    animation-name: pro1;
+    animation-duration: 2.4s;
+}
+#pro2 {
+    animation-name: pro2;
+    animation-duration: 2s;
+}
+#pro3 {
+    animation-name: pro3;
+    animation-duration: 1.5s;
+}
+@keyframes pro1 {
+    0% {
+        opacity: 0;
+        transform: translateY(-150px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+@keyframes pro2 {
+    0% {
+        opacity: 0;
+        transform: translateY(-100px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+@keyframes pro3 {
+    0% {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+@media screen and (max-width: 1024px) {
+    .projects-wrapper {
+        height: 70%; 
+        width: 100%;
+    }
+    .project {
+       border: none;
+       width: 100%;
+    }
+    .projects {
+        height: 60%;
+    }
+    .project-text span {
+        font-size: 12px;
+        
+    }
+    .project-text {
+        width: 100%;
+    }
+    .project .img img {
+      width: 170px;
+      height: 70%;
+    }
+    .naslov h3 {
+        font-size: 16px;
+    }
+    /* nav */
+    ul li {
+        font-size: 14px;
+    }
+}
