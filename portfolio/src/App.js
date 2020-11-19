@@ -9,6 +9,7 @@ import './components/education.css';
 import './components/projects.css';
 import './components/contact.css';
 import './components/response.css';
+import Success from './components/Success'
 import {
   BrowserRouter as Router,
   Switch,
@@ -43,6 +44,7 @@ export default function App() {
           <Route path="/Education" component={Education}/>
           <Route path="/Projects" component={Projects} />
           <Route path="/ContactMe" component={ContactMe} />
+          <Route path="/Success" component={Success} />
         </div> 
         </Switch>
       </div>

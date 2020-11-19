@@ -4,7 +4,7 @@ const Home = () => {
     return (
         <div className="home-wrapper">
         <div className="img-wrapper">
-            <img src="jaPort.jpg"   />
+            <img src="jaPort.jpg" />
         </div>  
         <div className="name"> 
         <h1>Luka Brekalo</h1>     

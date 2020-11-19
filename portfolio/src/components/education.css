@@ -8,7 +8,7 @@
 
 .education-cards {
     display: flex;
-    max-height: 100%;
+    height: 100%;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -27,13 +27,14 @@
     font-size: 22px;
     font-weight: 500;
     text-transform: uppercase;
-    padding-top: 5px;
+    margin-bottom: 10px;
 }
 .card {
     border: 0.5px solid grey;
-    height: 100%;
+    height: 270px;
+    padding: 14px;
     margin-top: 20px;
-    width: 70%;
+    width: 60%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -43,6 +44,7 @@
     animation-duration: 1.5s;
     
 }
+
 @keyframes anim {
     0% {
         opacity: 0;
@@ -64,7 +66,7 @@
 }
 .education-cards .scroll i {
     color:  #31b0d5;
-    margin-top: 25px;
+    margin-top: 20px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -73,10 +75,12 @@
     }
     .education-cards {
         width: 100%;
+        
     }
     .card {
         width: 90%;
         border: none;
+        height: 100%;
     }
     .card h3 {
         font-size: 16px;
@@ -84,4 +88,11 @@
     .card p {
         font-size: 14px;
     }
+}
+
+/* success */
+.success {
+    width: 100%;
+    height: 400px;
+    background-color: rebeccapurple;
 }

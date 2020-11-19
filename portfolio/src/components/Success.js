@@ -2,7 +2,7 @@ import React from 'react'
 
 const Success = () => {
     return (
-        <div>
+        <div className="success">
             <h6>Form Success</h6>
         </div>
     )
