@@ -4,9 +4,6 @@ const Projects = () => {
     return (
         <div className="projects-wrapper">
             <div className="projects">
-            <div className="naslov">
-                <h3>Projects</h3>
-            </div>
                 <div className="project" id="pro1">
                     <div className="img">
                     <img src="CounterGift.gif"  />
@@ -21,17 +18,44 @@ const Projects = () => {
                         <img src="quiz.jpg" />
                     </div>
                     <div className="project-text">
-                        <span>Quiz aplikacija koja govori o meni i koja mi je donijela prvi posao junior fronted dev</span>
+                        <span>Quiz aplikacija.</span>
                         <a href="https://github.com/breka34/Quiz" target="blank">Source code</a>
                     </div>
                 </div>
                 <div className="project" id="pro3">
+                    <div className="img">
+                        <img src="shops.jfif" />
+                    </div>
+                    <div className="project-text">
+                        <span>Online shop za muškarce i žene.</span>
+                        <a href="https://github.com/breka34/E-commerce" target="blank">Source code</a>
+                    </div>
+                </div>
+                <div className="project" id="pro4">
                     <div className="img">
                     <img src="form.jpg" />
                     </div>
                     <div className="project-text">
                         <span>Form/Movies aplikacija. Prvi korak unijeti svoje podatke nakon toga pronaći film koji želite</span>
                         <a href="https://github.com/breka34/Form-Movies" target="blank">Source code</a>
+                    </div>
+                </div>
+                <div className="project" id="pro4">
+                    <div className="img">
+                    <img src="fake-shop.jpg" />
+                    </div>
+                    <div className="project-text">
+                        <span>React-Redux</span>
+                        <a href="https://github.com/breka34/Fake-Shop" target="blank">Source code</a>
+                    </div>
+                </div>
+                <div className="project" id="pro4">
+                    <div className="img">
+                    <img src="breaking-bad.jpg" />
+                    </div>
+                    <div className="project-text">
+                        <span>Breaking Bad Api/Search actor</span>
+                        <a href="https://github.com/breka34/Task-Tracker-BreakingBad-Api" target="blank">Source code</a>
                     </div>
                 </div>
                 <div className="scroll">

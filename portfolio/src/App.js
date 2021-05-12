@@ -9,7 +9,7 @@ import './components/education.css';
 import './components/projects.css';
 import './components/contact.css';
 import './components/response.css';
-import Success from './components/Success'
+import Map from './components/map';
 import {
   BrowserRouter as Router,
   Switch,
@@ -20,7 +20,6 @@ import {
 export default function App() {
   return (
     <Router>
-      <div className="router">
         <nav className="navbar">
           <ul className="main-nav" id="js-menu">
             <li>
@@ -39,15 +38,11 @@ export default function App() {
         </nav>
        
         <Switch>
-        <div className="content">
           <Route exact path="/" component={Home}/>
           <Route path="/Education" component={Education}/>
           <Route path="/Projects" component={Projects} />
           <Route path="/ContactMe" component={ContactMe} />
-          <Route path="/Success" component={Success} />
-        </div> 
         </Switch>
-      </div>
       
     </Router>
     

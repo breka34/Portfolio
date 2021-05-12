@@ -12,7 +12,8 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 90%;
+    width: 100%;
+    background-color: black;
 }
 
 .education-cards h2 {
@@ -39,12 +40,21 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    text-align: center;
     animation-name: anim;
     animation-duration: 1.5s;
     
 }
-
+.card:nth-child(1) {
+    margin-top: 110px;
+    margin-left: 150px;
+    
+}
+.card:nth-child(2) {
+    margin-right: 150px;
+}
+.card:nth-child(3) {
+    margin-left: 150px;
+}
 @keyframes anim {
     0% {
         opacity: 0;
@@ -56,12 +66,12 @@
   }
 }
 .card {
-    box-shadow: 5px 10px 16px #888888; 
+    box-shadow: 5px 4px 16px #888888; 
  }
 .card p {
     width: 90%;
     padding: 10px;
-    color: rgba(0, 0, 0, 0.938);
+    color: #fff;
     font-size: 16px;
 }
 .education-cards .scroll i {
@@ -87,6 +97,16 @@
     }
     .card p {
         font-size: 14px;
+    }
+    .card:nth-child(1) {
+        margin-top: 110px;
+        margin-left: 0px;
+    }
+    .card:nth-child(2) {
+        margin-right: 0;
+    }
+    .card:nth-child(3) {
+        margin-left: 0px;
     }
 }
 
